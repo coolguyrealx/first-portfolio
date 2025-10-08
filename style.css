@@ -1,0 +1,42 @@
+body{
+    background-color: #c898e5;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: #826996;
+}
+
+.boxed{
+    background-color: #a354d4;
+    text-align: center;
+}
+section{
+    background-color: #b177d4;
+}
+nav{
+    padding: 1em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+}
+
+.boxed  p{
+    margin: 3px;
+}
+
+a{
+    color: #e2bfff;
+}
+
+header  h1{
+    text-align: center;
+}
+.img{
+    padding-top:30px;
+}
