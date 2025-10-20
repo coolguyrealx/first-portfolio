@@ -1,6 +1,11 @@
+html{
+    font-family:'Verdana';
+}
 body{
     background-color: #c898e5;
     color: white;
+    padding:0;
+    margin:0;
 }
 
 a:hover{
@@ -22,9 +27,10 @@ nav{
     padding: 1em;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1;
-}
+} /* I know I shouldn't be using a table for this, but this is how I did it originally, and I'm
+    too lazy to test if flexbox works in sandbox. */
 
 .boxed  p{
     margin: 3px;
@@ -36,7 +42,50 @@ a{
 
 header  h1{
     text-align: center;
+    margin:0; /* This fixes the gap between the header and the top of the page. Idk how, but it does. */
 }
 .img{
-    padding-top:30px;
+    padding-top:20px;
+}
+.centered{
+    text-align:center;
+}
+footer.absolute{
+    position:absolute;
+    bottom:0;
+    width:100vw;
+}
+a.social{
+    font-size:30px;
+}
+@keyframes python-bar{
+    from {width:0px;}
+    to{width:90%;}
+}
+@keyframes java-bar{
+    from {width:0px;}
+    to {width:10%;}
+}
+@keyframes html-bar{
+    from {width:0px;}
+    to {width:30%;}
+}
+.progress-back{
+    background-color:lightgrey;
+    border-radius:10px;
+    margin-left:25vw;
+    margin-right:25vw;
+}
+.progress-front{
+    background-color:lightgreen;
+    border-radius:10px;
+    color:#054503;
+    animation-duration:2.5s;
+    animation-timing-function:ease-in-out;
+}
+.skills{
+    text-align:center;
+}
+.skills p{
+    margin-top:0px;
 }
