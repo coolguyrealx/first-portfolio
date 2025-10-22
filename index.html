@@ -40,9 +40,11 @@
             </nav>
             <p style = "opacity: 40%;">© 2025 Jett Goimarac</p>
         </footer>
-		<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js">
+		<script type="module">
+  			import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+			new fairyDustCursor();
 			window.addEventListener("load", (event) => {
-				new cursoreffects.springyEmojiCursor({ emoji: "🤑" });
+  				new cursoreffects.ghostCursor();
 			});
 		</script>
     </body>
