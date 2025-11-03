@@ -50,11 +50,6 @@ header  h1{
 .centered{
     text-align:center;
 }
-footer.absolute{
-    position:absolute;
-    bottom:0;
-    width:100vw;
-}
 a.social{
     font-size:30px;
 }
