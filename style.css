@@ -28,6 +28,7 @@ section{
     background-color: #b177d4;
     flex-grow: 1;
     max-width: 80vw;
+    justify-content: center;
 }
 nav{
     padding: 1em;
