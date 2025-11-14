@@ -6,7 +6,7 @@ body{
     background-color: #c898e5;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures body takes full viewport height */
+    min-height: 100vh;
     color: white;
     padding:0;
     margin:0;
@@ -27,6 +27,7 @@ a:active{
 section{
     background-color: #b177d4;
     flex-grow: 1;
+    max-width: 80vw;
 }
 nav{
     padding: 1em;
