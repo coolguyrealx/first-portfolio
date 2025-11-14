@@ -4,6 +4,7 @@ html{
 
 body{
     background-color: #c898e5;
+    text-align:center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -22,17 +23,17 @@ a:active{
 
 .boxed{
     background-color: #a354d4;
-    text-align: center;
 }
 section{
     background-color: #b177d4;
     flex-grow: 1;
-    max-width: 80vw;
-    justify-content: center;
+    max-width: 90vw;
+    margin-bottom:30px;
+    margin-left:5vw;
+    margin-top:30px;
 }
 nav{
     padding: 1em;
-    text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1;
@@ -48,14 +49,10 @@ a{
 }
 
 header  h1{
-    text-align: center;
     margin:0; /* This fixes the gap between the header and the top of the page. Idk how, but it does. */
 }
 .img{
     padding-top:20px;
-}
-.centered{
-    text-align:center;
 }
 a.social{
     font-size:30px;
@@ -84,9 +81,6 @@ a.social{
     color:#054503;
     animation-duration:2.5s;
     animation-timing-function:ease-in-out;
-}
-.skills{
-    text-align:center;
 }
 .skills p{
     margin-top:0px;
